@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F1E14A90-75B2-402F-ABD2-3B1BABD6D397}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45041.6703125" objectName="Aliases.browser.BrowserWindow" objectLeft="-8" objectTop="-8" objectRight="1928" objectBottom="1040" clickPointX="101" clickPointY="0" imageFileName="tcvi76815734146840.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45041.6703935185" objectName="Aliases.browser.pageShop.linkWatches" objectLeft="752" objectTop="201" objectRight="832" objectBottom="249" clickPointX="791" clickPointY="238" imageFileName="tcvi76822453146844.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45041.6704398148" objectName="Aliases.browser.pageWatches.sectionContent.linkShowDetailsForTissotTTouch.imageShowDetailsForTissotTTouch" objectLeft="924" objectTop="504" objectRight="1055" objectBottom="678" clickPointX="1026" clickPointY="573" imageFileName="tcvi76826062146847.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
