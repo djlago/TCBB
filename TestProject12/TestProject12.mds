@@ -8,25 +8,30 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{EA0F88EB-1E64-411D-AA21-CCFA36F90020}" version="14">
 		<children>
-			<testItem name="Test1" key="{54956E25-0D23-47A8-B51A-8A27BA6E13AA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EBE8EE48-0CC2-4AF4-AE2C-E1194AAA0B43}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Group1" key="{3066F173-C9FE-49EB-BD61-76019192E249}" group="True" parallel="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT">
-					<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
-						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;112&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Chrome 112" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;12&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;15&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 12" Browser="Safari 15" Resolution="2560x1920" CustomCapabilitiesInfo="" />
-					</cloud>
-				</environments>
-				<children />
-			</testItem>
-			<testItem name="Test2" key="{68C69485-8B2B-4E05-B15B-4EF35F360B77}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F1E14A90-75B2-402F-ABD2-3B1BABD6D397}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT">
-					<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
-						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;112&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Firefox 112" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;112&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Chrome 112" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-					</cloud>
-				</environments>
-				<children />
+				<children>
+					<testItem name="Test1" key="{54956E25-0D23-47A8-B51A-8A27BA6E13AA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EBE8EE48-0CC2-4AF4-AE2C-E1194AAA0B43}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT">
+							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
+								<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;112&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Chrome 112" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+								<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;12&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;15&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 12" Browser="Safari 15" Resolution="2560x1920" CustomCapabilitiesInfo="" />
+							</cloud>
+						</environments>
+						<children />
+					</testItem>
+					<testItem name="Test2" key="{68C69485-8B2B-4E05-B15B-4EF35F360B77}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F1E14A90-75B2-402F-ABD2-3B1BABD6D397}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT">
+							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
+								<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;112&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Firefox 112" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+								<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;112&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Chrome 112" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+							</cloud>
+						</environments>
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
