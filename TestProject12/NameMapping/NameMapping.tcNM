@@ -418,6 +418,114 @@
 					</Child>
 				</Children>
 			</Child>
+			<Child Name="Mobile" Key="{CF40288B-DA76-41DB-8C97-CD939F501318}">
+				<TypeInfo Item0="{17440EA3-293A-45F8-8DA4-F9009981099E}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Mobile" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Device" Key="{29CA1340-F2D1-4AC8-814D-F43720DDE12A}">
+						<TypeInfo Item0="{DC5820A4-3D5F-4A0B-8254-ED2C764D1773}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Device" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="processSmartbearExampleOrders" Key="{6D00A6C2-82C4-43E1-BB0A-AC4C84BC2995}">
+								<TypeInfo Item0="{000A7C9C-6013-4728-AC39-E6EF063E51EC}" />
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="smartbear.example.orders" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="scrollView" Key="{F3111DD8-9A55-44B5-ABC3-1E7013CFB76A}">
+										<Image FileName="506829113" Left="0" Top="249" Right="1080" Bottom="2115" />
+										<TypeInfo Item0="{1E5A7CC3-E61C-47E0-B4FA-6FAF1ACB22C6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/content&quot;]/android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout[2]/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewTextTotal" Key="{0FB823EE-B09C-408A-A594-A029CC5AFC7B}">
+										<Image FileName="506829113" Left="48" Top="1078" Right="159" Bottom="1166" />
+										<TypeInfo Item0="{1E5A7CC3-E61C-47E0-B4FA-6FAF1ACB22C6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/text_total&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;160&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.TextView[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="listView1" Key="{E8080645-076A-4906-B497-45A8B5E56B96}">
+										<Image FileName="1096544061" Left="48" Top="417" Right="1032" Bottom="1773" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/listView1&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.ListView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[android.widget.TwoLineListItem]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.ListView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewText2" Key="{4EF58694-CF40-4D69-8617-6C75006BB074}">
+										<Image FileName="1096544061" Left="72" Top="723" Right="1032" Bottom="780" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[contains(@text, &quot;2, FamilyAlbum&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;android:id/text2&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.TwoLineListItem[2]/android.widget.TextView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit" Key="{8943CF0C-D5BF-4480-9AAC-27C083A48220}">
+										<Image FileName="2123639649" Left="367" Top="273" Right="669" Bottom="417" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/editButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;Edit&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/buttons_layout&quot;]/android.widget.Button[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.Button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
 		</Children>
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
@@ -466,6 +574,17 @@
 						<Child Name="imageShowDetailsForTissotTTouch" Owner="{CD9A6AAA-F06A-4F52-B8E0-AB0678824D7A}" />
 					</Child>
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="Device" Owner="{29CA1340-F2D1-4AC8-814D-F43720DDE12A}">
+			<Child Name="processSmartbearExampleOrders" Owner="{6D00A6C2-82C4-43E1-BB0A-AC4C84BC2995}">
+				<Child Name="scrollView" Owner="{F3111DD8-9A55-44B5-ABC3-1E7013CFB76A}">
+					<Child Name="textViewTextTotal" Owner="{0FB823EE-B09C-408A-A594-A029CC5AFC7B}" />
+				</Child>
+				<Child Name="listView1" Owner="{E8080645-076A-4906-B497-45A8B5E56B96}">
+					<Child Name="textViewText2" Owner="{4EF58694-CF40-4D69-8617-6C75006BB074}" />
+				</Child>
+				<Child Name="buttonEdit" Owner="{8943CF0C-D5BF-4480-9AAC-27C083A48220}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
